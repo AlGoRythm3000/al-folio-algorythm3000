@@ -2,14 +2,12 @@
 layout: page
 permalink: /teaching/
 title: teaching
-description: Course materials, schedules, and resources for classes taught.
+description: Lectures and tutoring.
 nav: true
 nav_order: 6
-calendar: true
 ---
 
-This page displays a collection of courses with detailed schedules, materials, and resources. You can organize your courses by years, terms, or topics.
-
-{% include calendar.liquid calendar_id='test@gmail.com' timezone='Asia/Shanghai' %}
+I enjoy teaching. I have given four guest lectures in computer science at the master's level, and
+I have tutored high-school students in mathematics and physics/chemistry since 2020.
 
 {% include courses.liquid %}

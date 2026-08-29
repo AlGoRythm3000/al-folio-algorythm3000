@@ -1,189 +1,182 @@
+# RenderCV input file (schema v2.8) — https://rendercv.com
+# Also consumed by the al_folio_cv Jekyll layout for the /cv/ page.
+# Section names are capitalized on purpose: "Experience", "Education", "Projects"
+# are special-cased by the al_folio_cv layout; the others fall back to a generic
+# renderer that understands `bullet` and `label`/`details` entries.
 cv:
-  name: Albert Einstein
-  label: Scientist
-  email: einstein@example.com
-  location: Princeton, NJ
-  image: ""
-  summary: A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time
-
+  name: Gabriel Franco
+  location: Paris, France
+  email: gabriel.franco@ens-paris-saclay.fr
+  website: https://algorythm3000.github.io/al-folio-algorythm3000/
   social_networks:
-    - network: X
-      username: AlbertEinstein
     - network: GitHub
-      username: example
+      username: AlGoRythm3000
     - network: LinkedIn
-      username: example
-
-  address:
-    street: 2712 Broadway St
-    city: San Francisco
-    region: California
-    postalCode: CA 94115
-    countryCode: US
-
+      username: gabriel-franco-b401161a2
   sections:
-    Education:
-      - institution: University of Zurich
-        location: Zurich, Switzerland
-        url: https://www.uzh.ch/
-        area: Physics
-        studyType: PhD
-        start_date: 1900
-        end_date: 1905
-        score: ""
-        courses: "Theory of Relativity"
-        highlights:
-          - Description 1.
-          - Description 2.
-
-      - institution: Eidgenössische Technische Hochschule
-        location: Zurich, Switzerland
-        area: Physics
-        studyType: Federal teaching diploma
-        start_date: 1896
-        end_date: 1900
-        highlights:
-          - Description 1.
-          - Description 2.
+    Summary:
+      - bullet: Machine learning student and research assistant with a background from ENS
+          Paris-Saclay (Computer Science & Electrical Engineering) and the IASD MSc (ENS Ulm / Mines
+          Paris / Dauphine-PSL). I work on geometric and topological deep learning, computer vision
+          and applied machine learning, with hands-on experience across research labs, public
+          administration and industrial R&D. Admitted to the French Agrégation in Engineering and
+          Computer Sciences (national rank 15/151).
 
     Experience:
-      - company: Institute for Advanced Study, Princeton University
-        position: Professor of Theoretical Physics
-        location: Princeton University, NJ
-        start_date: 1933
-        end_date: 1955
-        summary: Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.
+      - company: INRIA Saclay & CentraleSupélec (MICS Lab)
+        position: Research Assistant — Geometric & Topological Deep Learning
+        location: Gif-sur-Yvette, France
+        start_date: 2026-03
+        end_date: 2026-08
         highlights:
-          - Relativity
-          - Description 2.
+          - Developing methods to tackle oversmoothing and oversquashing in graph learning through
+            rewiring and lifting techniques.
+          - Working with topological and graph neural network architectures (CWN, GIN, GPS, GAN, CIN)
+            and recent topological deep learning tooling (DiffLift, TopoTune, TopoModelX).
 
-      - company: California Institute of Technology
-        position: Visiting Professor
-        location: Pasadena, California, US
-        start_date: 1933
-        end_date: 1933
+      - company: Ministry of the Economy and Finance — Directorate for Tax Studies and Statistics
+        position: Data Scientist Intern — Tax Fraud Estimation
+        location: Paris, France
+        start_date: 2025-10
+        end_date: 2026-02
         highlights:
-          - Description 1.
-          - Description 2.
+          - Developed data-science models to evaluate tax fraud and under-declaration using ensemble
+            learning (XGBoost).
+          - Improved the model F1-score from 0.16 to 0.23 with Bayesian hyperparameter optimization.
+          - Ran explainable-AI analysis using Shapley values on gradient-boosted trees to interpret
+            predictions.
 
-      - company: Kaiser Wilhelm Institute for Physics
-        position: Director
+      - company: French Embassy in Berlin — Service for Science and Technology
+        position: Intern — Scientific Cooperation
         location: Berlin, Germany
-        start_date: 1917
-        end_date: 1933
-
-      - company: Karl-Ferdinand University
-        position: Professor of Theoretical Physics
-        location: Prague, Czechoslovakia
-        start_date: 1911
-        end_date: 1917
-
-      - company: University of Zurich
-        position: Associate Professor of Theoretical Physics
-        location: Zurich, Switzerland
-        start_date: 1909
-        end_date: 1911
-
-    Volunteer:
-      - company: People's Climate March
-        position: Lead Organizer
-        location: Zurich, Switzerland
-        start_date: 2014-04-01
-        end_date: 2015-07-01
-        summary: Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.
+        start_date: 2025-06
+        end_date: 2025-09
         highlights:
-          - "Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march."
-          - "Men of the year 2014 by Time magazine"
+          - Coordinated the first "Fête de la Science" in Germany — 20 events across 7 Franco-German
+            high schools (communication, management, logistics).
+          - Conducted strategic mapping of the German scientific-culture and innovation ecosystem for
+            diplomatic reporting.
 
-    Awards:
-      - title: Nobel Prize in Physics
-        authors:
-          - "Royal Swedish Academy of Sciences"
-        date: 1921-11-01
-        awarder: Royal Swedish Academy of Sciences
-        url: https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/
-        summary: The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'
+      - company: Hublex
+        position: R&D Part-time Engineer — RNN Control for an Exoskeleton
+        location: Cachan, France
+        start_date: 2024-09
+        end_date: 2025-06
+        highlights:
+          - Designed an industrial dossier on the neural-network control of an exoskeleton.
+          - Implemented and tuned an LSTM (RNN) command model from sensor inputs, focusing on data
+            manipulation and Edge-AI deployment — projected 50%+ increase in adoption rate for
+            industrial clients.
 
-      - title: Max Planck Medal
-        authors:
-          - "German Physical Society"
-        date: 2029
-        awarder: German Physical Society
-        summary: Awarded for outstanding scientific achievement
+      - company: Università di Pavia
+        position: Deep Learning Project Intern — Post-seismic Damage Detection
+        location: Pavia, Italy
+        start_date: 2024-06
+        end_date: 2024-08
+        highlights:
+          - Developed and fine-tuned a damage-detection algorithm with the YOLOv8/v9/v10 frameworks
+            on post-seismic images, improving mean Average Precision for damage localization by 0.16.
+          - Gained hands-on experience with ultralytics, PyTorch and TensorFlow.
 
-    Publications:
-      - title: Zur Elektrodynamik bewegter Körper
-        authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1905-06-30
-        url: https://en.wikisource.org/wiki/Translation:On_the_Electrodynamics_of_Moving_Bodies
-        summary: It concerned an interpretation of the Michelson–Morley experiment and the properties of light and time. Special relativity incorporates the principle that the speed of light is the same for all inertial observers regardless of the state of motion of the source.
+      - company: ENS Paris-Saclay
+        position: Autonomous Racing Car — COVAPSY Competition
+        location: Paris-Saclay, France
+        start_date: 2024-01
+        end_date: 2024-06
+        highlights:
+          - Computer vision and reinforcement learning for guiding a reduced-scale autonomous car.
+          - Developed vision-based spatial reasoning for autonomous navigation.
 
-      - title: Über einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt
-        authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1905-03-18
-        url: https://de.wikisource.org/wiki/Über_einen_die_Erzeugung_und_Verwandlung_des_Lichtes_betreffenden_heuristischen_Gesichtspunkt
-        summary: In the second paper, he applied the quantum theory to light to explain the photoelectric effect. In particular, he used the idea of light quanta (photons) to explain experimental results, but stressed the importance of the experimental results. The importance of his work on the photoelectric effect earned him the Nobel Prize in Physics in 1921.
+      - company: Les Glénans
+        position: Catamaran Instructor
+        location: France
+        start_date: 2020-01
+        end_date: present
+        highlights:
+          - Sailing instructor at Les Glénans, France's largest sailing school, since 2020.
 
-      - title: Die Grundlage der allgemeinen Relativitätstheorie
-        authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1916-03-20
-        url: https://de.wikisource.org/wiki/Die_Grundlage_der_allgemeinen_Relativitätstheorie
-        summary: The publication of the theory of general relativity made him internationally famous. He was professor of physics at the universities of Zurich (1909–1911) and Prague (1911–1912), before he returned to ETH Zurich (1912–1914).
+    Education:
+      - institution: ENS Ulm, Mines Paris & Université Paris Dauphine-PSL
+        area: Artificial Intelligence, Machine Learning and Data Science (IASD)
+        degree: MSc
+        location: Paris, France
+        start_date: 2026-09
+        end_date: 2027-06
+        highlights:
+          - "Coursework: Reinforcement Learning, Theoretical Foundations of Machine Learning, Deep
+            Learning for Image Analysis, Kernel Methods, Robot Learning, Dynamical Systems in ML,
+            Bayesian Machine Learning."
 
-    Skills:
-      - name: Physics
-        level: Master
-        icon: fa-solid fa-hashtag
-        keywords: "Quantum Mechanics, Quantum Computing, Quantum Information, Quantum Cryptography, Quantum Communication, Quantum Teleportation"
+      - institution: ENS Paris-Saclay (Université Paris-Saclay)
+        area: Computer Science and Electrical Engineering
+        degree: MSc
+        location: Gif-sur-Yvette, France
+        start_date: 2023-09
+        end_date: 2025-06
+        highlights:
+          - "Coursework: Reinforcement Learning, Audio/Image/Signal Processing, Deep Learning & AI
+            (CNN & Bayesian NN), Inverse Problems, HPC, Databases & SQL, Information Theory & Source
+            Coding (incl. VAE), Embedded Systems & Edge Computing, Operating Systems, Networking,
+            Wavelets, Software Engineering."
+          - Admitted to the Agrégation (national teaching competition for higher-education
+            professors) in Engineering and Computer Sciences — nationwide rank 15/151.
 
-    Languages:
-      - name: German
-        summary: "Native speaker"
+      - institution: ENS Paris-Saclay (Université Paris-Saclay)
+        area: Engineering
+        degree: BSc
+        location: Gif-sur-Yvette, France
+        start_date: 2022-09
+        end_date: 2023-06
+        highlights:
+          - "Coursework: Object-Oriented Programming, Advanced Probability & Stochastic Processes,
+            Estimation & Optimization Theory, Signal Processing, Linear Systems & Control Theory."
 
-      - name: English
-        summary: "Fluent"
-
-    Interests:
-      - name: Physics
-        icon: fa-solid fa-tag
-        keywords: "Quantum Mechanics, Quantum Computing, Quantum Information, Quantum Cryptography, Quantum Communication, Quantum Teleportation"
-
-    Certificates:
-      - name: Machine Learning
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-location-dot
-
-      - name: Quantum Computing
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-tag
-
-      - name: Quantum Information
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-envelope
+      - institution: Lycée Sainte-Geneviève / Lycée de Cachan
+        area: Preparatory Classes for the Grandes Écoles (PTSI / PT*, Advanced Track)
+        degree: CPGE
+        location: Versailles / Cachan, France
+        start_date: 2019-09
+        end_date: 2022-06
+        highlights:
+          - Advanced Mathematics, Engineering Sciences and Physics.
+          - Admitted to ENS Paris-Saclay — nationwide rank 188/2560.
 
     Projects:
-      - name: Quantum Computing
-        summary: Quantum computing is the use of quantum-mechanical phenomena such as superposition and entanglement to perform computation. Computers that perform quantum computations are known as quantum computers.
+      - name: Local Edge-AI pipeline on Radxa Rock 4D
+        start_date: 2025-01
+        end_date: present
+        summary: On-device LLMs and VLM-based vision tools for real-time spatial analysis on a
+          single-board computer, with no cloud dependency.
         highlights:
-          - Quantum Teleportation
-          - Quantum Cryptography
-        start_date: 2018-01-01
-        end_date: 2018-01-01
+          - Quantized LLM / VLM inference running fully on-device.
+          - Multiple companion projects on Arduino Uno; regular hackathon participation.
 
-    References:
-      - name: Professor John Doe
-        icon: fa-solid fa-laptop
-        reference: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit.
+    Technical Skills:
+      - label: Programming
+        details: Python (NumPy, SciPy, OpenCV, Matplotlib), C, C++, MATLAB, SQL, VHDL
+      - label: AI / ML
+        details: PyTorch, PyTorch Geometric, Keras, ultralytics, TensorFlow, scikit-learn, CUDA,
+          Apache Spark, Pandas
+      - label: Tools
+        details: Git / GitHub, Bash & Unix, LaTeX, Typst, Notion, MS Office, Canva
 
-      - name: Professor Jane Smith
-        icon: fa-solid fa-thumbtack
-        reference: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit.
+    Language Skills:
+      - label: French
+        details: Native
+      - label: English
+        details: Professional working proficiency (IELTS 7 — C1)
+      - label: German
+        details: Professional working proficiency (B2–C1)
+      - label: Italian
+        details: Conversational (B1)
+
+    Interests & Activities:
+      - label: Sports
+        details: Triathlon (x2 Half Ironman), catamaran sailing and instructing
+      - label: Music
+        details: Flute — 16 years of conservatory, symphony and jazz orchestras
+      - label: Teaching
+        details: Maths & Physics/Chemistry tutoring; four guest CS lectures at MSc level
+      - label: Academic
+        details: L3-level Econometrics & Macroeconomics; Philosophy of Science and Theory of
+          Knowledge; politics
