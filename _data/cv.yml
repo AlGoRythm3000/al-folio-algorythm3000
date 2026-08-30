@@ -106,8 +106,7 @@ cv:
         end_date: 2025-06
         highlights:
           - "Coursework: Reinforcement Learning, Audio/Image/Signal Processing, Deep Learning & AI, Inverse Problems, HPC, Databases & SQL, Information Theory & Source
-            Coding, Embedded Systems & Edge Computing, Operating Systems, Networking,
-            Wavelets."
+            Coding, Embedded Systems & Edge Computing, Wavelets."
           - Admitted to the Agrégation (national teaching competition for higher-education
             professors) in Engineering and Computer Sciences — nationwide rank 15/151.
 
@@ -136,7 +135,7 @@ cv:
         start_date: 2025-01
         end_date: present
         summary: On-device LLMs and VLM-based vision tools for real-time spatial analysis on a
-          single-board computer, with no cloud dependency.
+          single-board computer. 
         highlights:
           - Quantized LLM / VLM inference running fully on-device.
           - Multiple companion projects on Arduino Uno; regular hackathon participation.
