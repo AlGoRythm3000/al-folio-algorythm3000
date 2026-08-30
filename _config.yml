@@ -98,7 +98,7 @@ max_width: 930px
 # -----------------------------------------------------------------------------
 # Display links to the page with a preview object on social media.
 # see https://schema.org/docs/faq.html for more information
-serve_og_meta: true # Include Open Graph meta tags in the HTML head
+serve_og_meta: false # Open Graph tags off for privacy (flip to true if you want rich link previews when sharing)
 serve_schema_org: false # Include Schema.org in the HTML head
 og_image: # The site-wide (default for all links) Open Graph preview image
 
@@ -254,7 +254,7 @@ plugins:
   - jekyll-paginate-v2
   - jekyll-regex-replace
   - jekyll/scholar
-  - jekyll-sitemap
+  # - jekyll-sitemap   # disabled on purpose: no sitemap.xml, site is kept out of search engines
   - jekyll-socials
   - jekyll-tabs
   - jekyll-terser

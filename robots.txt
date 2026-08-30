@@ -1,7 +1,7 @@
 ---
 permalink: /robots.txt
 ---
+# Keep this site out of search engines. It stays fully reachable by direct link
+# (CV, email, LinkedIn) — it is just not crawled or indexed.
 User-agent: *
-Disallow:
-
-Sitemap: {{ site.baseurl | prepend: site.url }}/sitemap.xml
+Disallow: /
