@@ -19,7 +19,7 @@ cv:
           Paris-Saclay (Computer Science & Electrical Engineering) and the IASD MSc (ENS Ulm / Mines
           Paris / Dauphine-PSL). I work on geometric and topological deep learning, computer vision
           and applied machine learning, with hands-on experience across research labs, public
-          administration and industrial R&D. Admitted to the French Agrégation in Engineering and
+          administration and industrial R&D. Admitted to the French Agrégation (most competitive and prestigious examination for civil service in the French public education system) in Engineering and
           Computer Sciences (national rank 15/151).
 
     Experience:
@@ -78,15 +78,6 @@ cv:
             on post-seismic images, improving mean Average Precision for damage localization by 0.16.
           - Gained hands-on experience with ultralytics, PyTorch and TensorFlow.
 
-      - company: ENS Paris-Saclay
-        position: Autonomous Racing Car — COVAPSY Competition
-        location: Paris-Saclay, France
-        start_date: 2024-01
-        end_date: 2024-06
-        highlights:
-          - Computer vision and reinforcement learning for guiding a reduced-scale autonomous car.
-          - Developed vision-based spatial reasoning for autonomous navigation.
-
       - company: Les Glénans
         position: Catamaran Instructor
         location: France
@@ -114,10 +105,9 @@ cv:
         start_date: 2023-09
         end_date: 2025-06
         highlights:
-          - "Coursework: Reinforcement Learning, Audio/Image/Signal Processing, Deep Learning & AI
-            (CNN & Bayesian NN), Inverse Problems, HPC, Databases & SQL, Information Theory & Source
-            Coding (incl. VAE), Embedded Systems & Edge Computing, Operating Systems, Networking,
-            Wavelets, Software Engineering."
+          - "Coursework: Reinforcement Learning, Audio/Image/Signal Processing, Deep Learning & AI, Inverse Problems, HPC, Databases & SQL, Information Theory & Source
+            Coding, Embedded Systems & Edge Computing, Operating Systems, Networking,
+            Wavelets."
           - Admitted to the Agrégation (national teaching competition for higher-education
             professors) in Engineering and Computer Sciences — nationwide rank 15/151.
 
@@ -150,13 +140,22 @@ cv:
         highlights:
           - Quantized LLM / VLM inference running fully on-device.
           - Multiple companion projects on Arduino Uno; regular hackathon participation.
+      
+      - name : COVAPSY — Autonomous Racing Car Competition
+        start_date: 2024-01
+        end_date: 2024-06
+        summary: Computer vision and reinforcement learning for guiding a reduced-scale autonomous
+          car.
+        highlights:
+          - Developed vision-based spatial reasoning for autonomous navigation.
+          - Participated in the COVAPSY competition at ENS Paris-Saclay.
 
     Technical Skills:
       - label: Programming
         details: Python (NumPy, SciPy, OpenCV, Matplotlib), C, C++, MATLAB, SQL, VHDL
       - label: AI / ML
         details: PyTorch, PyTorch Geometric, Keras, ultralytics, TensorFlow, scikit-learn, CUDA,
-          Apache Spark, Pandas
+          Apache Spark, Pandas, JAX
       - label: Tools
         details: Git / GitHub, Bash & Unix, LaTeX, Typst, Notion, MS Office, Canva
 
@@ -168,15 +167,12 @@ cv:
       - label: German
         details: Professional working proficiency (B2–C1)
       - label: Italian
-        details: Conversational (B1)
+        details: Conversational (B1-B2)
 
     Interests & Activities:
       - label: Sports
-        details: Triathlon (x2 Half Ironman), catamaran sailing and instructing
+        details: Triathlon, catamaran sailing and instructing, climbing 
       - label: Music
         details: Flute — 16 years of conservatory, symphony and jazz orchestras
       - label: Teaching
-        details: Maths & Physics/Chemistry tutoring; four guest CS lectures at MSc level
-      - label: Academic
-        details: L3-level Econometrics & Macroeconomics; Philosophy of Science and Theory of
-          Knowledge; politics
+        details: Math tutoring for High School classes; four guest CS lectures Maths & Physics one-on-one tutoring at MSc level, Maths & Physics one-on-one tutoring

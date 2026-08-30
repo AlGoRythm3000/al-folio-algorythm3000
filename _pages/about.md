@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: MSc student in AI, Machine Learning &amp; Data Science &mdash; <a href='https://www.ens.psl.eu/'>ENS Ulm</a> / <a href='https://www.minesparis.psl.eu/'>Mines Paris</a> / <a href='https://dauphine.psl.eu/'>Dauphine-PSL</a> (IASD) &amp; <a href='https://ens-paris-saclay.fr/'>ENS Paris-Saclay</a>.
+subtitle: Final year MSc student in AI, Machine Learning &amp; Data Science &mdash; <a href='https://www.ens.psl.eu/'>ENS Ulm</a> / <a href='https://www.minesparis.psl.eu/'>Mines Paris</a> / <a href='https://dauphine.psl.eu/'>Dauphine-PSL</a> (IASD) &amp final year *normalien élève* at ; <a href='https://ens-paris-saclay.fr/'>ENS Paris-Saclay</a>. 
 
 profile:
   align: right
@@ -31,13 +31,13 @@ I am a machine learning student and research assistant. I hold a master's degree
 and I am starting the [IASD](https://www.masteriasd.eu/) master's in Artificial Intelligence,
 Machine Learning and Data Science ([ENS Ulm](https://www.ens.psl.eu/) / [Mines Paris](https://www.minesparis.psl.eu/) /
 [Université Paris Dauphine-PSL](https://dauphine.psl.eu/)). I was also admitted to the French
-*Agrégation* in Engineering and Computer Sciences (national rank 15/151).
+[*Agrégation*](https://en.wikipedia.org/wiki/Agr%C3%A9gation) in Engineering and Computer Sciences (national rank 15/151).
 
-My main interest is **geometric and topological deep learning** &mdash; graph neural networks,
+The topic I worked the most on so far has been **geometric and topological deep learning** &mdash; graph neural networks,
 rewiring and lifting techniques, and the oversmoothing / oversquashing problems &mdash; which I
 currently work on as a research assistant at [INRIA Saclay](https://www.inria.fr/en/inria-saclay-centre)
 and [CentraleSupélec](https://www.centralesupelec.fr/). I have also worked on applied machine
-learning for tax-fraud estimation at the French Ministry of the Economy and Finance, on RNN-based
+learning for tax-fraud estimation at the [French Ministry of the Economy and Finance](https://www.economie.gouv.fr/dgfip), on RNN-based
 control of an exoskeleton at [Hublex](https://www.hublex.co/), on post-seismic damage detection
 with YOLO at the [University of Pavia](https://web-en.unipv.it/), and on computer vision and
 reinforcement learning for autonomous racing.
