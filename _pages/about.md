@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: Final year MSc student in AI, Machine Learning &amp; Data Science &mdash; <a href='https://www.ens.psl.eu/'>ENS Ulm</a> / <a href='https://www.minesparis.psl.eu/'>Mines Paris</a> / <a href='https://dauphine.psl.eu/'>Dauphine-PSL</a> (IASD) &amp final year *normalien élève* at ; <a href='https://ens-paris-saclay.fr/'>ENS Paris-Saclay</a>. 
+subtitle: Final-year MSc student in AI, Machine Learning &amp; Data Science (IASD) &mdash; <a href='https://www.ens.psl.eu/'>ENS Ulm</a> / <a href='https://www.minesparis.psl.eu/'>Mines Paris</a> / <a href='https://dauphine.psl.eu/'>Dauphine-PSL</a>. <em>Normalien élève</em> at <a href='https://ens-paris-saclay.fr/'>ENS Paris-Saclay</a>.
 
 profile:
   align: right
