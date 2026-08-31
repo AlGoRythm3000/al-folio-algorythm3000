@@ -254,7 +254,7 @@ plugins:
   - jekyll-paginate-v2
   - jekyll-regex-replace
   - jekyll/scholar
-  # - jekyll-sitemap   # disabled on purpose: no sitemap.xml, site is kept out of search engines
+  - jekyll-sitemap # sitemap.xml is generated but inert: robots.txt blocks crawlers and every page is noindex
   - jekyll-socials
   - jekyll-tabs
   - jekyll-terser

@@ -15,15 +15,14 @@ cv:
       username: gabriel-franco-b401161a2
   sections:
     Summary:
-      - bullet: Machine learning student and research assistant with a background from ENS
-          Paris-Saclay (Computer Science & Electrical Engineering) and the IASD MSc (ENS Ulm / Mines
-          Paris / Dauphine-PSL). I work on geometric and topological deep learning, computer vision
+      - bullet: Final-year Master's degree student in Machine Learning at the IASD MSc (Ecole Normale Supérieure d'Ulm / Mines
+          Paris / Dauphine-PSL) with a background from Ecole Normale Supérieure Paris-Saclay (Computer Science & Electrical Engineering) where I am *normalien* (trainee civil servant). I work on geometric and topological deep learning, computer vision
           and applied machine learning, with hands-on experience across research labs, public
           administration and industrial R&D. Admitted to the French Agrégation in Engineering and
           Computer Sciences (national rank 15/151).
 
     Experience:
-      - company: INRIA Saclay & CentraleSupélec (MICS Lab)
+      - company: INRIA Saclay & CentraleSupélec (Center for Visual Computing)
         position: Research Assistant — Geometric & Topological Deep Learning
         location: Gif-sur-Yvette, France
         start_date: 2026-03
@@ -98,7 +97,7 @@ cv:
             Learning for Image Analysis, Kernel Methods, Robot Learning, Dynamical Systems in ML,
             Bayesian Machine Learning."
 
-      - institution: ENS Paris-Saclay (Université Paris-Saclay)
+      - institution: Ecole Normale Supérieure (ENS) Paris-Saclay (part of Université Paris-Saclay)
         area: Computer Science and Electrical Engineering
         degree: MSc
         location: Gif-sur-Yvette, France
@@ -110,7 +109,7 @@ cv:
           - Admitted to the Agrégation (national teaching competition for higher-education
             professors) in Engineering and Computer Sciences — nationwide rank 15/151.
 
-      - institution: ENS Paris-Saclay (Université Paris-Saclay)
+      - institution: Ecole Normale Supérieure (ENS) Paris-Saclay (part of Université Paris-Saclay)
         area: Engineering
         degree: BSc
         location: Gif-sur-Yvette, France
@@ -140,7 +139,7 @@ cv:
           - Quantized LLM / VLM inference running fully on-device.
           - Multiple companion projects on Arduino Uno; regular hackathon participation.
       
-      - name : COVAPSY — Autonomous Racing Car Competition
+      - name: COVAPSY — Autonomous Racing Car Competition
         start_date: 2024-01
         end_date: 2024-06
         summary: Computer vision and reinforcement learning for guiding a reduced-scale autonomous
@@ -170,8 +169,36 @@ cv:
 
     Interests & Activities:
       - label: Sports
-        details: Triathlon, catamaran sailing and instructing, climbing 
+        details: Triathlon, catamaran sailing and instructing, climbing
       - label: Music
         details: Flute — 16 years of conservatory, symphony and jazz orchestras
       - label: Teaching
-        details: Math tutoring for High School classes; four guest CS lectures Maths & Physics one-on-one tutoring at MSc level, Maths & Physics one-on-one tutoring
+        details: Maths & Physics one-on-one tutoring (high school); four guest CS lectures at MSc level
+
+# ---------------------------------------------------------------------------
+# PDF layout (RenderCV only). Tuned so the PDF fits on 2 pages.
+# The al_folio_cv Jekyll layout ignores this block (it only reads `cv:`).
+# NOTE: `rendercv render ... --settings settings.yaml` does NOT pick up
+# assets/rendercv/design.yaml in RenderCV 2.x, so the design lives here.
+# ---------------------------------------------------------------------------
+design:
+  theme: classic
+  page:
+    size: a4
+    top_margin: 1.4cm
+    bottom_margin: 1.4cm
+    left_margin: 1.6cm
+    right_margin: 1.6cm
+    show_top_note: false
+  typography:
+    line_spacing: 0.55em
+  header:
+    space_below_name: 0.35cm
+    space_below_headline: 0.35cm
+    space_below_connections: 0.5cm
+  section_titles:
+    space_above: 0.35cm
+    space_below: 0.25cm
+  sections:
+    space_between_regular_entries: 1.0em
+    space_between_text_based_entries: 0.3em
