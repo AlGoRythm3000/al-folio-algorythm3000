@@ -19,9 +19,28 @@ cv:
           Paris / Dauphine-PSL) with a background from Ecole Normale Supérieure Paris-Saclay (Computer Science & Electrical Engineering) where I am *normalien* (trainee civil servant). I work on geometric and topological deep learning, computer vision
           and applied machine learning, with hands-on experience across research labs, public
           administration and industrial R&D. Admitted to the French Agrégation in Engineering and
-          Computer Sciences (national rank 15/151).
+          Computer Sciences (national rank 15/151). Incoming Research Intern at Microsoft (Spatial AI Lab
+          Zurich, April–September 2027), seeking a PhD position in robotics and computer vision starting
+          in October 2027.
+
+    Papers:
+      - bullet: "*Lifting matters: do higher-order liftings reduce oversquashing?* — manuscript in preparation
+          (target: ICML 2027)."
+      - bullet: "*Measuring Over-Squashing Beyond Graphs: A Survey of Measures on Higher-Order Domains* —
+          manuscript in preparation."
 
     Experience:
+      - company: Microsoft — Spatial AI Lab Zurich
+        position: Incoming Research Intern — Multimodal Embeddings
+        location: Zurich, Switzerland
+        start_date: 2027-04
+        end_date: 2027-09
+        highlights:
+          - Will study the cone effect in text-vision embedding models (CLIP, SigLIP), on synthetic
+            experiments and real models.
+          - Will design training methods that spread embeddings over the full embedding space, to improve
+            expressivity and close the modality gap.
+
       - company: INRIA Saclay & CentraleSupélec (Center for Visual Computing)
         position: Research Assistant — Geometric & Topological Deep Learning
         location: Gif-sur-Yvette, France
@@ -32,6 +51,7 @@ cv:
             rewiring and lifting techniques.
           - Working with topological and graph neural network architectures (CWN, GIN, GPS, GAN, CIN)
             and recent topological deep learning tooling (DiffLift, TopoTune, TopoModelX).
+          - This work led to two research papers (see Papers).
 
       - company: Ministry of the Economy and Finance — Directorate for Tax Studies and Statistics
         position: Data Scientist Intern — Tax Fraud Estimation
