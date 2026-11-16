@@ -19,9 +19,9 @@ cv:
           Paris / Dauphine-PSL) with a background from Ecole Normale Supérieure Paris-Saclay (Computer Science & Electrical Engineering) where I am *normalien* (trainee civil servant). I work on geometric and topological deep learning, computer vision
           and applied machine learning, with hands-on experience across research labs, public
           administration and industrial R&D. Admitted to the French Agrégation in Engineering and
-          Computer Sciences (national rank 15/151). Incoming Research Intern at Microsoft (Spatial AI Lab
-          Zurich, April–September 2027), seeking a PhD position in robotics and computer vision starting
-          in October 2027.
+          Computer Sciences (national rank 15/151). Incoming Visiting Student Researcher at Microsoft Research
+          (Spatial AI Lab, Zurich, April–September 2027) for my Master's thesis, seeking a PhD position
+          in robotics and computer vision starting in October 2027.
 
     Papers:
       - bullet: "*Lifting matters: do higher-order liftings reduce oversquashing?* — manuscript in preparation
@@ -30,14 +30,14 @@ cv:
           manuscript in preparation."
 
     Experience:
-      - company: Microsoft — Spatial AI Lab Zurich
-        position: Incoming Research Intern — Multimodal Embeddings
+      - company: Microsoft Research — Spatial AI Lab
+        position: Incoming Visiting Student Researcher — Master's Thesis
         location: Zurich, Switzerland
         start_date: 2027-04
         end_date: 2027-09
         highlights:
-          - Will study the cone effect in text-vision embedding models (CLIP, SigLIP), on synthetic
-            experiments and real models.
+          - "Master's thesis: study of the cone effect in multimodal embedders (CLIP, SigLIP), on synthetic
+            experiments and real models."
           - Will design training methods that spread embeddings over the full embedding space, to improve
             expressivity and close the modality gap.
 

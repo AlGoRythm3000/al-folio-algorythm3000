@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: Final-year MSc student in AI, Machine Learning &amp; Data Science (IASD) &mdash; <a href='https://www.ens.psl.eu/'>ENS Ulm</a> / <a href='https://www.minesparis.psl.eu/'>Mines Paris</a> / <a href='https://dauphine.psl.eu/'>Dauphine-PSL</a>. <em>Normalien élève</em> at <a href='https://ens-paris-saclay.fr/'>ENS Paris-Saclay</a>. Incoming Research Intern at <a href='https://www.microsoft.com/'>Microsoft</a> (Spatial AI Lab Zurich).
+subtitle: Final-year MSc student in AI, Machine Learning &amp; Data Science (IASD) &mdash; <a href='https://www.ens.psl.eu/'>ENS Ulm</a> / <a href='https://www.minesparis.psl.eu/'>Mines Paris</a> / <a href='https://dauphine.psl.eu/'>Dauphine-PSL</a>. <em>Normalien élève</em> at <a href='https://ens-paris-saclay.fr/'>ENS Paris-Saclay</a>. Incoming Visiting Student Researcher at <a href='https://www.microsoft.com/en-us/research/'>Microsoft Research</a> (Spatial AI Lab, Zurich).
 
 profile:
   align: right
@@ -33,8 +33,8 @@ Machine Learning and Data Science ([ENS Ulm](https://www.ens.psl.eu/) / [Mines P
 [Université Paris Dauphine-PSL](https://dauphine.psl.eu/)). I was also admitted to the French
 [*Agrégation*](https://en.wikipedia.org/wiki/Agr%C3%A9gation) in Engineering and Computer Sciences (national rank 15/151).
 
-From April to September 2027, I will be a **Research Intern at [Microsoft](https://www.microsoft.com/) (Spatial AI Lab Zurich)**,
-studying the cone effect and the modality gap in text-vision embedding models (CLIP, SigLIP). I am looking for a
+From April to September 2027, I will be a **Visiting Student Researcher at [Microsoft Research](https://www.microsoft.com/en-us/research/) (Spatial AI Lab, Zurich)**
+for my Master's thesis, studying the cone effect and the modality gap in multimodal embedding models (CLIP, SigLIP). I am looking for a
 **PhD position in robotics and computer vision** starting in October 2027.
 
 The topic I worked the most on so far has been **geometric and topological deep learning** &mdash; graph neural networks,
@@ -55,5 +55,5 @@ See my [CV](/al-folio-algorythm3000/cv/) for the full story, or get in touch by
   <a href="https://ens-paris-saclay.fr/" title="ENS Paris-Saclay" style="background: #fff; border-radius: 8px; padding: 10px 14px; display: flex; align-items: center; height: 64px;"><img src="{{ '/assets/img/logos/ens-paris-saclay.png' | relative_url }}" alt="ENS Paris-Saclay" style="max-height: 44px; width: auto;"></a>
   <a href="https://www.ens.psl.eu/" title="École normale supérieure (Ulm) - PSL" style="background: #fff; border-radius: 8px; padding: 10px 14px; display: flex; align-items: center; height: 64px;"><img src="{{ '/assets/img/logos/ens-ulm-psl.png' | relative_url }}" alt="ENS Ulm - PSL" style="max-height: 44px; width: auto;"></a>
   <a href="https://www.inria.fr/en/inria-saclay-centre" title="Inria Saclay" style="background: #fff; border-radius: 8px; padding: 10px 14px; display: flex; align-items: center; height: 64px;"><img src="{{ '/assets/img/logos/inria.svg' | relative_url }}" alt="Inria" style="height: 36px; width: auto;"></a>
-  <a href="https://www.microsoft.com/" title="Microsoft" style="background: #fff; border-radius: 8px; padding: 10px 14px; display: flex; align-items: center; height: 64px;"><img src="{{ '/assets/img/logos/microsoft.svg' | relative_url }}" alt="Microsoft" style="height: 36px; width: auto;"></a>
+  <a href="https://www.microsoft.com/en-us/research/" title="Microsoft Research" style="background: #fff; border-radius: 8px; padding: 10px 14px; display: flex; align-items: center; height: 64px;"><img src="{{ '/assets/img/logos/microsoft.svg' | relative_url }}" alt="Microsoft" style="height: 36px; width: auto;"></a>
 </div>

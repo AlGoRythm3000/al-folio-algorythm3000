@@ -5,5 +5,5 @@ inline: true
 related_posts: false
 ---
 
-Accepted as a **Research Intern at Microsoft** (Spatial AI Lab Zurich) for April&ndash;September 2027, working on
-multimodal embeddings &mdash; the cone effect and the modality gap in CLIP / SigLIP. :tada:
+Accepted as a **Visiting Student Researcher at Microsoft Research** (Spatial AI Lab, Zurich) for my Master's thesis,
+April&ndash;September 2027 &mdash; studying the cone effect and the modality gap in multimodal embedders (CLIP / SigLIP). :tada:
