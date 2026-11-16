@@ -46,8 +46,7 @@ control of an exoskeleton at [Hublex](https://www.hublex.co/), on post-seismic d
 with YOLO at the [University of Pavia](https://web-en.unipv.it/), and on computer vision and
 reinforcement learning for autonomous racing.
 
-Outside research I build [Edge-AI](/al-folio-algorythm3000/projects/) pipelines on single-board
-computers, play the flute, race triathlons, and teach maths, physics and computer science.
+Outside research I regularly teach math or physics, and play the flute since 6 years old. Also an enormous fan of outdoor activities : I race triathlons and love going climbing (bouldering or trad climbing), in addition to being a sailing instructor in the ["Glénans"](https://www.glenans.asso.fr/) organisation since 2020. Cinema, [philosophy](https://de.wikipedia.org/wiki/Beantwortung_der_Frage:_Was_ist_Aufkl%C3%A4rung%3F) and [modern art](https://www.wikiart.org/en/laszlo-moholy-nagy) are probably the cultural domains I'm probably the most interested in !  
 
 See my [CV](/al-folio-algorythm3000/cv/) for the full story, or get in touch by
 [email](mailto:gabriel.franco@ens-paris-saclay.fr).
